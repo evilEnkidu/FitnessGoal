@@ -1,11 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-</head>
-<body>
-      <h1>Shit's working'</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}Home - My Website{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center my-5">
+    <h1 class="display-4">Welcome to My Website</h1>
+    <p class="lead">This is the homepage, where you can find all the important information about our services.</p>
+    <hr class="my-4">
+    <p>Explore our features and get in touch with us!</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="Feature 1">
+            <div class="card-body">
+                <h5 class="card-title">Feature 1</h5>
+                <p class="card-text">Description of feature 1 goes here. It can be a short paragraph explaining the feature.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="Feature 2">
+            <div class="card-body">
+                <h5 class="card-title">Feature 2</h5>
+                <p class="card-text">Description of feature 2 goes here. Another short paragraph explaining this feature.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="Feature 3">
+            <div class="card-body">
+                <h5 class="card-title">Feature 3</h5>
+                <p class="card-text">Description of feature 3 goes here. It can explain this part of your website or service.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

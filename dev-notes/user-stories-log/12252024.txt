@@ -1,0 +1,74 @@
+Functionality
+*User
+Username
+Email
+Password
+
+*Pages
+Home page
+Login page
+Register page
+User guide page
+My Dashboard page
+Food page
+Meals page
+Goals page
+User profile page
+User register
+User login
+User logout
+User change password
+User delete account
+
+*UserProfile
+User
+Weight
+Height
+Activity level
+Daily calorie needs
+
+*Goal
+User profile
+Goal type
+Target weight
+Weekly goal
+Start date
+Target date
+
+*MealPlan
+User profile
+Name
+Meals per day
+Total calories
+' Protein
+' Carbs
+' Fats
+
+*Meal
+Meal plan
+Name 
+Meal time
+Total calories
+
+*Food
+Name
+Brand
+Serving size
+Serving unit
+
+NutritionInfo
+Food
+Calories per 100
+Protein '
+Carbs ' 
+Fats '
+Fiber '
+
+Long term:
+Progress tracking models
+Exercise tracking
+Recipe models
+Measurements (body measurements)
+
+
+
